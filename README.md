@@ -63,7 +63,7 @@ We provide two processed datasets: MovieLens 1 Million (ml-1m) and Amazon Music 
 If the code helps you in your research, please also cite:
 
 @misc{deepcf2019,
-  author =       {Deng, Zhi-Hong and Huang, Ling and Wang, Chang-Dong and Lai, Jian-Huang and Yu, Philip Sn},
+  author =       {Deng, Zhi-Hong and Huang, Ling and Wang, Chang-Dong and Lai, Jian-Huang and Yu, Philip S},
   title =        {DeepCF},
   howpublished = {\url{https://github.com/familyld/DeepCF}},
   year =         {2019}
