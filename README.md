@@ -2,7 +2,7 @@
 
 This is our official implementation for the paper:
 
-Zhi-Hong Deng, Ling Huang, Chang-Dong Wang, Jian-Huang Lai, Philip S. Yu. [DeepCF: A Unified Framework of Representation Learning and Matching Function Learning in Recommender System.](https://github.com/familyld) In AAAI '19, Honolulu, Hawaii, USA, January 27 – February 1, 2019.
+Zhi-Hong Deng, Ling Huang, Chang-Dong Wang, Jian-Huang Lai, Philip S. Yu. [DeepCF: A Unified Framework of Representation Learning and Matching Function Learning in Recommender System.](https://arxiv.org/abs/1901.04704v1) In AAAI '19(**Oral**), Honolulu, Hawaii, USA, January 27 – February 1, 2019.
 
 In this work, we explored the possibility of fusing representation learning-based CF methods and matching function learning-based CF methods. We have devised a general framework DeepCF and proposed its MLP implementation, i.e., CFNet. The DeepCF framework is simple but effective. Although we have implemented the two components with MLP in this paper, different types of representation learning-based methods and matching function learning-based methods can be integrated under the DeepCF framework. 
 
@@ -39,7 +39,7 @@ python CFNet.py --dataset ml-1m --epochs 20 --lr 0.0001  --learner sgd  --dmf_pr
 ### Dataset
 We provide two processed datasets: MovieLens 1 Million (ml-1m) and Amazon Music (AMusic). 
 
-**train.rating **
+**train.rating**
 - Train file.
 - Each Line is a training instance: `userID\t itemID\t rating\t timestamp (if have)`
 
