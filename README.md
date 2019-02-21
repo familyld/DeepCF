@@ -52,3 +52,19 @@ We provide two processed datasets: MovieLens 1 Million (ml-1m) and Amazon Music 
 - Each line corresponds to the line of test.rating, containing 99 negative samples.  
 - Each line is in the format: `(userID,itemID)\t negativeItemID1\t negativeItemID2 ...`
 
+## Citation
+@article{deng2019deepcf,
+  title={DeepCF: A Unified Framework of Representation Learning and Matching Function Learning in Recommender System},
+  author={Deng, Zhi-Hong and Huang, Ling and Wang, Chang-Dong and Lai, Jian-Huang and Yu, Philip S},
+  booktitle={AAAI},
+  year={2019}
+}
+
+If the code helps you in your research, please also cite:
+
+@misc{deepcf2019,
+  author =       {Deng, Zhi-Hong and Huang, Ling and Wang, Chang-Dong and Lai, Jian-Huang and Yu, Philip Sn},
+  title =        {DeepCF},
+  howpublished = {\url{https://github.com/familyld/DeepCF}},
+  year =         {2019}
+}
