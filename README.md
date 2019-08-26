@@ -36,6 +36,8 @@ Run CFNet (with pre-training):
 python CFNet.py --dataset ml-1m --epochs 20 --lr 0.0001  --learner sgd  --dmf_pretrain Pretrain/ml-1m_DMF_1533478530.h5 --mlp_pretrain Pretrain/ml-1m_MLP_1533344127.h5
 ```
 
+For other data sets, since they have more items than users, one should use more dimensions for userlayer ([1024, 64]) and fewer dimensions for itemlayer ([512, 64]).
+
 ### Dataset
 We provide two processed datasets: MovieLens 1 Million (ml-1m) and Amazon Music (AMusic). 
 
