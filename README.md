@@ -39,7 +39,7 @@ python CFNet.py --dataset ml-1m --epochs 20 --lr 0.0001  --learner sgd  --dmf_pr
 For other data sets, since they have more items than users, one should use more dimensions for userlayer ([1024, 64]) and fewer dimensions for itemlayer ([512, 64]).
 
 ### Dataset
-We provide two processed datasets: MovieLens 1 Million (ml-1m) and Amazon Music (AMusic). 
+We provide all four processed datasets: MovieLens 1 Million (ml-1m), LastFm (lastfm), Amazon Toy (AToy) and Amazon Music (AMusic). 
 
 **train.rating**
 - Train file.
